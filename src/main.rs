@@ -27,7 +27,7 @@ impl SimplePluginCommand for Implementation {
         "bg"
     }
 
-    fn description(&self) -> &str {
+    fn usage(&self) -> &str {
         "Start a process in the background."
     }
 
