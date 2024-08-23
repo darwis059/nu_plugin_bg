@@ -31,6 +31,10 @@ impl SimplePluginCommand for Implementation {
         "Start a process in the background."
     }
 
+    fn usage(&self) -> &str {
+        "Start a process in the background."
+    }
+
     fn signature(&self) -> Signature {
         Signature::build(PluginCommand::name(self))
             .required(
